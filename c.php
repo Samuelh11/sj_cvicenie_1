@@ -103,8 +103,9 @@
 
     $data = array("Peter" => 25, 
                   "Jana" => 30, 
-                  "Marek" => 20
-                );
+                  "Marek" => 20,
+                  "Jozef" => 30
+                                );
     
     foreach($data as $name => $age){
         echo "$name má $age rokov <br>";
